@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AirportServer.Services/1.0.0": {
+        "dependencies": {
+          "AirportServer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AirportServer.Services.dll": {}
+        }
+      },
+      "AirportServer.Domain/1.0.0": {
+        "runtime": {
+          "AirportServer.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AirportServer.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AirportServer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
